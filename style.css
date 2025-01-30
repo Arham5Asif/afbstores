@@ -1,0 +1,361 @@
+.login{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(difficulties-foreigners-may-face-in-turkish-business-life-1024x683.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+h1{
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px, 0px, 2px rgba(0,0,0,0.25);
+    color: white;
+    margin-bottom: 40px;
+    
+}
+label{
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+input{
+    background: rgba(255,255,255,0.3);
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+input:hover{
+    border: 2px solid black;
+}
+button{
+    background: black;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+#afb{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    font-size: 50px;
+    font-weight: normal;
+    height: 100px;
+}
+#CEO{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.heroimage{
+    width: 1500px;
+    height: 680px;
+    background-size: cover;
+}
+a{  display: flex;
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+    justify-content: center;
+}
+a:hover{
+    border: 2px solid white;
+}
+.navbar{
+    display: flex;
+    position: static;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.nav-search{
+    display: flex;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-input{
+    margin-top: 8px;
+    margin-left: 3px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    height: 60%;
+    width: 40%;
+}
+.nav-deliver, .nav-cart, .nav-noti{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 5rem;
+    color: white;
+    border: 2px solid transparent;
+}
+.nav-deliver:hover{
+    border: 2px solid white;
+}
+.nav-cart:hover{
+    border: 2px solid white;
+}
+.nav-noti:hover{
+    border: 2px solid white;
+}
+.herosection{
+    background-image: url(71Ie3JXGfVL._SX3000_.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.hero-msg{
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 85rem;
+    position: relative;
+    top: 20rem;
+    left: 4rem;
+}
+.pic-box1{
+    width: 100%;
+    height: 28rem;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1rem;
+}
+.sec1{
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid transparent;
+    margin: 3rem;
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.sec1:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.50);
+}
+#box1{
+   background-image: url(ketchup.png); 
+   background-size: cover;
+   background-position: center;
+}
+#box2{
+    background-image: url(salt.png);
+    background-size: cover;
+    background-position: center;
+}
+#box3{
+    background-image: url(eva.png);
+    background-size: cover;
+    background-position: center;
+}
+#box4{
+    background-image: url(badam.png);
+    background-size: cover;
+    background-position: center;
+}
+.boxdesc1 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 4rem;
+}
+.boxdesc2 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 26.5rem;
+}
+.boxdesc3 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 48.5rem;
+}
+.boxdesc4 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 71rem;
+}
+p:hover{
+    color: skyblue;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.50);
+}
+.pic-box2{
+    width: 100%;
+    height: 28rem;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -3rem;
+}
+.sec2{
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid transparent;
+    margin: 3rem;
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.sec2:hover{
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.50);
+}
+#box5{
+    background-image: url(ketchup.png); 
+    background-size: cover;
+    background-position: center;
+}
+ #box6{
+     background-image: url(salt.png);
+     background-size: cover;
+     background-position: center;
+}
+ #box7{
+     background-image: url(eva.png);
+     background-size: cover;
+     background-position: center;
+}
+ #box8{
+     background-image: url(badam.png);
+     background-size: cover;
+     background-position: center;
+}
+.boxdesc5 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 4rem;
+}
+.boxdesc6 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 26.5rem;
+}
+.boxdesc7 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 48.5rem;
+}
+.boxdesc8 p{
+    width: 15rem;
+    height: 3rem;
+    border: 1.5px solid transparent;
+    display: flex;
+    position: absolute;
+    top: 17.5rem;
+    left: 71rem;
+}
+.foot{
+    width: 100%;
+    height: 3rem;
+    border: 2px solid black;
+    background-color: #304463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: white;
+}
+.foot1{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    background-color: #3C5B6F;
+    color: white;
+    background-image: url(afblogo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    background-position-x: left;
+}
+.foot2{
+    display: flex;
+    height: 3rem;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    background-color: #153448;
+}
+.copyright{
+    display: flex;
+    position: relative;
+    top: 2rem;
+    right: 35rem;
+}
+
+
+
+
+
+
+
+
